@@ -1,0 +1,19 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 10px;
+    color: rgb(192, 192, 192);
+}
+
+.Footer img {
+    width: 20px;
+    filter: invert(81%) sepia(5%) saturate(8%) hue-rotate(35deg) brightness(96%) contrast(88%);
+}
+
+.displayNone {
+    display: none;
+}
+
+/* convert hex to CSS filter:  https://codepen.io/sosuke/pen/Pjoqqp  */

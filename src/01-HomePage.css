@@ -1,0 +1,77 @@
+.HomePage{
+flex-grow: 10;
+display: flex;
+flex-direction: column;
+max-height: 100vh;
+overflow: unset;
+background-color: var(--cWhite);
+}
+.HomePage-Header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.HomePage-Header img {
+    max-height: 3em;
+    filter: invert(33%) sepia(33%) saturate(1696%) hue-rotate(33deg) brightness(103%) contrast(101%);
+}
+.HomePage-H1-Part1 {
+    font-family: var(--fSacramento);
+    display: inline-block;
+    transform:  translateY(-10px) rotate(-20deg);
+    font-size: 0.9em;
+}
+.HomePage-H1-Part2{
+    color: var(--cGreen);
+    font-size: 1.8em;
+}
+@media only screen and (max-width: 400px){
+    .HomePage-H1-Part1{
+        font-size: 0.7em;
+        transform: translateY(-5px) rotate(-20deg);
+    }
+    .HomePage-H1-Part2{
+        font-size: 1em;
+    }
+}
+/* ImageMain source: Photo by Farhad Ibrahimzade, at https: //www.pexels.com/photo/close-up-shot-of-food-on-white-ceramic-bowl-8697512/ */
+.HomePage-Content{
+    flex-grow: 10;
+    background-image: url('./Images/ImageMain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+}
+.HomePage-NavContainer{
+    flex-grow: 10;
+    background-color: var(--cWhiteTransparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.HomePage-NavContainer H2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+.HomePage-NavContainer nav {
+    display: flex;
+    gap: 10px;
+}
+.HomePage-NavLink{
+    font-weight: bold;
+    border: 2px solid var(--cGreen);
+    padding: 15px 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (hover: hover) {
+    .HomePage-NavLink:hover {
+        background-color: var(--cGreen);
+    }
+}
