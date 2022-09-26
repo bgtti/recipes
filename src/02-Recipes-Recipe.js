@@ -22,7 +22,7 @@ class Recipe extends Component {
                     <div className='Recipe-ContentSummary'>
                         <p>Prep: 15 min | Cook: 5 min | Total: 20 min</p>
                         <p>Servings: 4</p>
-                        <div className='Recipe-ContentSummaryRating'><p>Ratings: </p><div>*****</div><p className='Recipe-ContentSummaryRatingVotes'>3 votes</p> <button>Add rating</button></div>
+                        <div className='Recipe-ContentSummaryRating'><p>Ratings: </p><div>*****</div><p className='Recipe-ContentSummaryRatingVotes'>3 votes</p> <button>Rate</button></div>
                     </div>
                     <div className='Recipe-ContentIngredients'>
                         <h4>Ingredients</h4>
