@@ -1,0 +1,91 @@
+.Recipe {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 10px;
+}
+.Recipe-Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Recipe-Header h2 {
+    font-size: 2em;
+    color: var(--cGreen);
+}
+
+.Recipe-Header h2 span {
+    font-family: var(--fSacramento);
+    color: black;
+}
+.Recipe-Header h3, .Recipe-Header p {
+    color: var(--cGray);
+}
+.Recipe-Header p {
+    font-size: 0.7em;
+}
+.Recipe-Header p a{
+    color: var(--cDarkGray);
+    text-decoration-style: dashed;
+}
+.Recipe-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+}
+.Recipe-Content img{
+    width: 260px;
+}
+.Recipe-ContentSummary{
+    align-self: stretch;
+    margin-top: 5px
+}
+.Recipe-ContentSummaryRating{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.Recipe-ContentSummaryRating button{
+    cursor: pointer;
+    padding: 5px;
+    background-color: var(--cGreenTransparent);
+    border: none;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.Recipe-ContentSummaryRatingVotes{
+    color: var(--cGray);
+}
+.Recipe-Content div h4 {
+    color: var(--cGreen);
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.Recipe-ContentIngredients{
+    align-self: stretch;
+}
+.Recipe-ContentIngredients ul li{
+    list-style-position: inside;
+}
+.Recipe-PreparationP{
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .Recipe-Header h2 {
+        font-size: 3em;
+    }
+    .Recipe-Content {
+        width: 500px;
+    }
+    .Recipe-Content img {
+        width: 500px;
+    }
+    .Recipe-Content div h4 {
+        font-size: 1.5em;
+    }
+}

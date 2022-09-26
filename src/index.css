@@ -1,6 +1,8 @@
 :root {
   --cWhite: #ebeef3;
   --cWhiteTransparent:#ebeef356;
+  --cGray: rgb(138, 138, 138);
+  --cDarkGray: rgb(99, 99, 99);
   --cGreen: #5e6a00;
   --cGreenTransparent: #5e6a0073;
   --fSacramento: 'Sacramento', cursive;
