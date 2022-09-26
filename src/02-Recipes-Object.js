@@ -90,7 +90,7 @@ const RecipeObject = [
     },
     {
         id: "M01",
-        type: "dish",
+        type: "main",
         subtype: "meat",
         tags: [],
         title: "Brazilian Beef Stroganof",
@@ -118,7 +118,7 @@ const RecipeObject = [
     },
     {
         id: "M02",
-        type: "dish",
+        type: "main",
         subtype: "vegetable",
         tags: ["vegetarian"],
         title: "Eggplant Parmigiana",
@@ -144,7 +144,7 @@ const RecipeObject = [
     },
     {
         id: "M03",
-        type: "dish",
+        type: "main",
         subtype: "vegetable",
         tags: ["vegetarian", "vegan"],
         title: "Coconut Chickpea Curry",
@@ -166,7 +166,7 @@ const RecipeObject = [
     },
     {
         id: "M04",
-        type: "dish",
+        type: "main",
         subtype: "vegetable",
         tags: ["vegetarian"],
         title: "Fried Minced Meatballs",

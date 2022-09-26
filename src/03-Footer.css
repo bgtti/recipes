@@ -1,9 +1,12 @@
 .Footer {
+    align-self: stretch;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 7px;
     margin-top: 10px;
+    padding: 10px 0;
+    border-top: 2px dashed white;
     color: rgb(192, 192, 192);
 }
 
