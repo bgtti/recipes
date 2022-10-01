@@ -9,11 +9,17 @@ class Recipe extends Component {
     // constructor(props) {
     //     super(props);
     // };
+    // renderRecipePage(dish) {
+    //     let recipeToBePassedAsProp = RecipeObject.filter(obj => { return obj.name === dish; })
+    //     console.log(recipeToBePassedAsProp)
+    //     // return recipesToBePassedAsProps
+    // }
     render() {
+        const { recipeId } = this.props.recipeId;
         return (
             <div className='Recipe'>
                 <div className='Recipe-Header'>
-                    <h2><span>Warm</span> French Goat's Cheese Salad</h2>
+                    <h2><span>Warm</span> French Goat's Cheese Salad {recipeId}</h2>
                     <h3>Nutritious and delicious</h3>
                     <p>Original recipe by <a href="https://www.femmeactuelle.fr/cuisine/recettes/entree/salade-de-chevre-chaud-au-miel-06113">Femme Actuelle</a> | Picture by <a href="https://www.femmeactuelle.fr/cuisine/recettes/entree/salade-de-chevre-chaud-au-miel-06113">Rigoni di Asiago</a></p>
                 </div>

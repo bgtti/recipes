@@ -3,6 +3,7 @@ import './01-HomePage.css';
 import Footer from './03-Footer';
 import IconMain from './Images/IconMain.png'
 // import { Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import RecipeObject from './02-Recipes-Object.js'
 
 class HomePage extends Component {
@@ -28,9 +29,12 @@ class HomePage extends Component {
                     <div className='HomePage-NavContainer'>
                         <h2>What would you like to cook?</h2>
                         <nav>
-                            <button className='HomePage-NavLink'>Salad</button>
+                            <Link to='salad' className='HomePage-NavLink'>Salad</Link>
+                            <Link to='hotdish' className='HomePage-NavLink'>Hot Dish</Link>
+                            <Link to='dessert' className='HomePage-NavLink'>Dessert</Link>
+                            {/* <button className='HomePage-NavLink'>Salad</button>
                             <button className='HomePage-NavLink'>Main</button>
-                            <button className='HomePage-NavLink'>Dessert</button>
+                            <button className='HomePage-NavLink'>Dessert</button> */}
                         </nav>
                     </div>
                 </div>
